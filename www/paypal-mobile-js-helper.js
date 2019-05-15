@@ -70,6 +70,14 @@ PayPalPayment.prototype.custom = function(custom) {
 };
 
 /**
+ * Optional url for IPN Listener, for your tracking purposes. (up to 256 characters)
+ * @param {String} notify_url: The url for the IPN-Listener.
+ */
+PayPalPayment.prototype.notify_url = function(notify_url) {
+  this.notify_url = notify_url;
+};
+
+/**
  * Optional text which will appear on the customer's credit card statement. (up to 22 characters)
  * @param {String} softDescriptor: credit card text for payment
  */

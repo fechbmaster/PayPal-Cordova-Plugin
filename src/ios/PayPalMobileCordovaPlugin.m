@@ -99,6 +99,7 @@
     NSString *intentStr = [payment[@"intent"] lowercaseString];
     NSString *invoiceNumber = payment[@"invoiceNumber"];
     NSString *custom = payment[@"custom"];
+    NSString *notify_url = payment[@"notify_url"];
     NSString *softDescriptor = payment[@"softDescriptor"];
     NSString *payeeEmail = payment[@"payeeEmail"];
     NSString *bnCode = payment[@"bnCode"];
@@ -121,6 +122,7 @@
                                                          intent:intent];
     ppPayment.invoiceNumber = invoiceNumber;
     ppPayment.custom = custom;
+    ppPayment.notify_url = notify_url;
     ppPayment.softDescriptor = softDescriptor;
     ppPayment.payeeEmail = payeeEmail;
     ppPayment.bnCode = bnCode;

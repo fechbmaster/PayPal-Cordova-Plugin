@@ -203,6 +203,9 @@ typedef NS_ENUM(NSInteger, PayPalPaymentIntent) {
 /// Optional text, for your tracking purposes. (up to 256 characters)
 @property (nullable, nonatomic, copy, readwrite) NSString *custom;
 
+/// Optional url of IPN-Listener, for your tracking purposes. (up to 256 characters)
+@property (nullable, nonatomic, copy, readwrite) NSString *notify_url;
+
 /// Optional text which will appear on the customer's credit card statement. (up to 22 characters)
 @property (nullable, nonatomic, copy, readwrite) NSString *softDescriptor;
 
