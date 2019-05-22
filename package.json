@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/paypal/PayPal-Cordova-Plugin.git"
+    "url": "git+ssh://git@github.com/fechbmaster/PayPal-Cordova-Plugin.git"
   },
   "keywords": [
     "paypal",
@@ -30,7 +30,7 @@
   "author": "paypal",
   "license": "BSD License, see LICENSE for details",
   "bugs": {
-    "url": "https://github.com/paypal/PayPal-Cordova-Plugin/issues"
+    "url": "https://github.com/fechbmaster/PayPal-Cordova-Plugin/issues"
   },
-  "homepage": "https://github.com/paypal/PayPal-Cordova-Plugin#readme"
+  "homepage": "https://github.com/fechbmaster/PayPal-Cordova-Plugin#readme"
 }
